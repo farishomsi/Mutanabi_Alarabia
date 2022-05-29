@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+     .center {
+          text-align: center;
+          border: 30px;
+          }
+     .sansserif {
+          font-family: Century Gothic;
+          }
+     body {
+          background-image:  url("backG1.png");
+          background-repeat: no-repeat;
+          background-size: 115%;
+          background-position: -10px -10px;
+          height : 555px;
+          width : 350px
+          }
+
+     .slidecontainer {
+          width: 45%;
+          margin-left: auto;
+          margin-right: auto
+         }
+
+    .slider {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 2px;
+      border-radius: 15px;
+      background: linear-gradient(to right, #D5AE8E 0%, #D5AE8E 50%, #323B58 50%, #323B58 100%);
+      outline: none;
+      opacity: 0.8;
+      -webkit-transition: .2s;
+      transition: opacity .2s;
+        }
+
+    .slider:hover {
+      opacity: 1;
+    }
+
+    .slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width:20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #FFFFFF;
+      cursor: pointer;
+    }
+
+    .slider::-moz-range-thumb {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      background: #04AA6D;
+      cursor: pointer;
+    }
+    .textarea-container {
+      position: relative;
+    }
+
+    #sound {
+      position: absolute;
+      bottom: 150px;
+      right: 55px;
+    }
+
+    textarea {
+          background-color: #323B58;
+          border: 1px solid #323B58;
+          border-radius: 10px;
+          background: #D5AE8E;
+          resize: none;
+          font-weight: bold;
+          opacity: 0.8;
+
+
+}
+
+  </style>
+
+</head>
+<body style="background-color:#323B58;">
+
+
+
+     <div class="center">
+            <img src="mutanabi_logo.png"width="55%" height="55%">
+         <b style="color:white">BETA</b>
+<br>
+         <div>
+         <textarea id="summaryText" rows="13" cols="35" style="color:white;", class="sansserif"></textarea>
+         <br><input type="radio" id="autocorrection" name="t" value="30">
+         <label for="autocorrection">Autocorrection</label>
+         <input type="radio" id="lemmatization" name="t" value="60">
+         <label for="lemmatization">Lemmatization</label><br>  
+         <input type="radio" id="tashkeel" name="t" value="100">
+         <label for="tashkeel">Tashkeel</label>
+         <input type="radio" id="mutanabi" name="t" value="30">
+         <label for="mutanabi">Mutanabi</label><br><br><br>
+         <input type="submit" value="Tanabaa"><br>
+         <br>
+         <textarea id="summaryText" rows="9" cols="35" style="color:white;", class="sansserif"></textarea>
+         <br>
+         
+         <input id="sound" type="image" src="sound.png" height="20" width="20"/>
+        </div>
+
+         <br>
+         <b style="color:#ebecf1">Summarization Factor</b>
+         <br><br>
+         <div class="slidecontainer">
+             <input type="range" min="0" max="80" value="40" class="slider" id="sliderInput">
+             <br><br>
+             <output style="color:#323B58" id="sliderOutput">40%  </output>
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+             <script type="text/javascript" src="slidecontainer.js"></script>
+         </div>
+
+         <br>
+         
+      
+         <b style="color:white">@faris</b>
+
+     </div>
+                 <script src="popup.js">
+                 </script>
+
+
+
+     </body>
+</html>
