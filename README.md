@@ -43,5 +43,12 @@
 
 وتم تطبيق نموذج الذكاء الاصطناعي على chrome extension ليتم استخدامه من قبل مختلف المستخدمين بسهولة تامة عند الحاجة
 
-لرؤية التطبيق شاهد الفيديو  عبر الرابط التالي
+لرؤية التطبيق شاهد الفيديو  عبر الرابط التالي :
+
 https://drive.google.com/file/d/14frXMRIprI6tzjnQxnbIhE-vqKltVuhv/view?usp=sharing 
+
+
+
+لرؤية مثال اختبار النماذج عبر الرابط التالي:
+
+https://drive.google.com/file/d/1nlbFKCzSqSz9n7FGSPmAG9Iyn0QonR43/view?usp=sharing
